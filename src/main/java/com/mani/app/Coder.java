@@ -25,7 +25,7 @@ public class Coder {
     }
 
     @Autowired
-    @Qualifier("laptop")
+//    @Qualifier("laptop")
     public void setCom(Computer com) {
         this.com = com;
     }
