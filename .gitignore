@@ -1,0 +1,31 @@
+# Ignore Maven target (build output)
+target/
+*.class
+
+# Ignore logs
+logs/
+*.log
+*.out
+
+# Ignore IntelliJ IDEA files
+.idea/
+*.iml
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore compiled files
+bin/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore environment variables
+.env
+
+# Ignore Spring Boot specific files
+spring.log
+
+# Ignore application.properties if it contains sensitive data (optional)
+# src/main/resources/application.properties
